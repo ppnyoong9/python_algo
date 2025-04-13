@@ -21,36 +21,44 @@ N = int(input())
 
 # 스택 생성
 stack = [0] * (N+1)
-top = 0
+top = -1
 # 1부터 N까지 stack에서 pop한 이력이 있는지 여부를 체크할 리스트
 used = [0] * (N+1)
 
 ans = ''
 
+top += 1
+stack[top] = 0
+flag = 0
+
 for _ in range(N):
     num = int(input())
 
+    # 불가능하면 더이상 보지 않음
     if ans == 'NO':
         break
 
     # 입력 받은 수 > stack[top] : push 연산
     while num > stack[top]:
+        flag = max(stack[top], flag)
+        flag += 1
         top += 1
-        stack[top] = top
+        stack[top] = flag
         ans += '+'
 
+
+
     # 입력 받은 수 < stack[top] : pop 연산
-    while num < stack[top]:
-        if used[top] == 1:
+    while num <= stack[top]:
+        if used[num] == 1:
             ans = 'NO'
             break
-        used[top] = 1
+        used[num] = 1
         top -= 1
         ans += '-'
 
-    if num==stack[top]:
-        used[top] = 1
-        top -= 1
-        ans += '-'
-
-print(ans)
+if ans == 'NO':
+    print(ans)
+else:
+    for a in ans:
+        print(a)
