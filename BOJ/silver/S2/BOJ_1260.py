@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt', 'r')
+# sys.stdin = open('input.txt', 'r')
 input = sys.stdin.readline
 
 '''
@@ -19,24 +19,41 @@ input = sys.stdin.readline
 
 # 인접리스트로 간선 정보를 받아보자
 
-def dfs(start):
-    result = []  # start: 출발지점, n: 마지막정점
-    visisted = [0] * (N + 1)  # 방문 표시
-    stack = [start]  # 시작정점 넣어놓고 시작
+# def dfs(start):
+#     result = []  # start: 출발지점, n: 마지막정점
+#     visisted = [0] * (N + 1)  # 방문 표시
+#
+#     stack = [start]  # 시작정점 넣어놓고 시작
+#
+#     while stack:
+#
+#         n = stack.pop()  # stack에서 꺼내기
+#
+#         # 이미 방문한 정점이면 뒷걸음치기 (더이상 진행 x)
+#         if visisted[n] == 1:
+#             continue
+#
+#         visisted[n] = 1  # 방문표시
+#
+#         result.append(n)
+#
+#
+#         # 인접 행렬 돌면서 확인
+#         for w in reversed(adj_list[n]):
+#             if visisted[w] == 0:  # 아지막 방문 안한 정점이면
+#                 stack.append(w)  # stack에 추가
+#
+#
+#     return result
 
-    while stack:
 
-        n = stack.pop()  # stack에서 꺼내기
-        visisted[n] = 1  # 방문표시
-        result.append(n)
+def dfs(node):
+    visited[node] = 1
+    result.append(node)
 
-        # 인접 행렬 돌면서
-        for w in adj_list[n]:
-            if visisted[w] == 0:  # 아지막 방문 안한 정점이면
-                stack.append(w)  # stack에 추가
-                break
-
-    return result
+    for n in adj_list[node]:
+        if not visited[n]:
+            dfs(n)
 
 
 def bfs(start):
@@ -79,5 +96,9 @@ for _ in range(M):
 for i in range(1, N + 1):
     adj_list[i].sort()
 
-print(*dfs(V))
+# dfs 재귀를 위한 방문배열
+visited = [0] * (N+1)
+result = []
+dfs(V)
+print(*result)
 print(*bfs(V))
