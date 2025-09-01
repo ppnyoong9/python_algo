@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="145f4233-860d-4209-a2a1-fff1c497e0d8" name="Changes" comment="이전 풀이 업로드">
+      <change afterPath="$PROJECT_DIR$/BOJ/silver/S5/BOJ_1676.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/silver/S5/BOJ_1436.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/silver/S5/BOJ_1436.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ppnyoong9&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ppnyoong9/Python_ALGO.git&quot;,
+    &quot;accountId&quot;: &quot;d59f1a78-223d-49d5-874d-1c7f369654df&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vRRyZHyJ5h9W1JN2lt0ZbZgr4Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.2292.executor": "Run",
+    "Python.A2.executor": "Debug",
+    "Python.BOJ_10799.executor": "Run",
+    "Python.BOJ_10828.executor": "Run",
+    "Python.BOJ_10845.executor": "Run",
+    "Python.BOJ_10866.executor": "Run",
+    "Python.BOJ_1158.executor": "Run",
+    "Python.BOJ_1260.executor": "Run",
+    "Python.BOJ_1406.executor": "Run",
+    "Python.BOJ_1436.executor": "Run",
+    "Python.BOJ_1676.executor": "Run",
+    "Python.BOJ_17298.executor": "Debug",
+    "Python.BOJ_17299.executor": "Run",
+    "Python.BOJ_17413.executor": "Run",
+    "Python.BOJ_1874.executor": "Run",
+    "Python.BOJ_1935.executor": "Run",
+    "Python.BOJ_1978.executor": "Run",
+    "Python.BOJ_2231.executor": "Debug",
+    "Python.BOJ_2798.executor": "Run",
+    "Python.BOJ_28702.executor": "Run",
+    "Python.BOJ_30802.executor": "Run",
+    "Python.BOJ_9012.executor": "Run",
+    "Python.BOJ_9093.executor": "Run",
+    "Python.SWEA_1204.executor": "Run",
+    "Python.SWEA_1859.executor": "Run",
+    "Python.SWEA_1926.executor": "Run",
+    "Python.SWEA_1954.executor": "Run",
+    "Python.SWEA_1979.executor": "Run",
+    "Python.SWEA_2001.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.skeleton.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/workspace/python/python_algo",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\python\python_algo\BOJ\bronze\B2" />
+      <recent name="C:\workspace\python\python_algo\BOJ\bronze\B3" />
+      <recent name="C:\workspace\python\python_algo" />
+      <recent name="C:\workspace\python\python_algo\BOJ\gold\G3" />
+      <recent name="C:\workspace\python\python_algo\BOJ\gold\G4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\python\python_algo\BOJ\silver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.BOJ_1676">
+    <configuration name="BOJ_1436" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_algo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/silver/S5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/silver/S5/BOJ_1436.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BOJ_1676" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_algo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/silver/S5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/silver/S5/BOJ_1676.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BOJ_1676" />
+        <item itemvalue="Python.BOJ_1436" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="145f4233-860d-4209-a2a1-fff1c497e0d8" name="Changes" comment="" />
+      <created>1744106154568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744106154568</updated>
+    </task>
+    <task id="LOCAL-00001" summary="[2025/04/08] SWEA D2 문제">
+      <option name="closed" value="true" />
+      <created>1744116829450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744116829450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[2025/04/09] BOJ">
+      <option name="closed" value="true" />
+      <created>1744239090250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744239090250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[2025/04/13] BOJ">
+      <option name="closed" value="true" />
+      <created>1744584556896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744584556896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[2025/04/14] BOJ">
+      <option name="closed" value="true" />
+      <created>1744709934092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744709934092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[2025/04/15] BOJ">
+      <option name="closed" value="true" />
+      <created>1745235407134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745235407134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="이전 풀이 업로드">
+      <option name="closed" value="true" />
+      <created>1756123378580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756123378580</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[2025/04/08] SWEA D2 문제" />
+    <MESSAGE value="[2025/04/09] BOJ" />
+    <MESSAGE value="[2025/04/13] BOJ" />
+    <MESSAGE value="[2025/04/14] BOJ" />
+    <MESSAGE value="[2025/04/15] BOJ" />
+    <MESSAGE value="이전 풀이 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="이전 풀이 업로드" />
+  </component>
+</project>
