@@ -11,10 +11,12 @@ input = sys.stdin.readline
 
 
 n = int(input())
-arr = []*2666800
+arr = [0]*10001
+j = 1
 
-for i in range(2666800):
+for i in range(666, 2666800):
     if '666' in str(i):
-        arr.append(i)
+        arr[j] = i
+        j += 1
 
 print(arr[n])
