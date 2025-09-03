@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt', 'r')
-input = sys.stdin.readline
+# input = sys.stdin.readline
 
 '''
 4949번 균형잡힌 세상
@@ -16,7 +16,7 @@ input = sys.stdin.readline
 pair = {')':'(',']':'['}
 
 while True:
-    st = input().strip()
+    st = input()
     if st == ".":
         break
     s = [0] * len(st)
