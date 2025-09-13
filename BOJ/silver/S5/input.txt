@@ -1,6 +1,10 @@
-5
-0 4
-1 2
-1 -1
-2 2
-3 3
+9
+add 7
+remove 7
+all
+all
+empty
+all
+all
+remove 7
+check 10
